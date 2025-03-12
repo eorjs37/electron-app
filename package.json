@@ -1,0 +1,17 @@
+{
+  "name": "electron-app",
+  "version": "1.0.0",
+  "description": "electron-app",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "electroon"
+  ],
+  "author": "choi dae geon",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^35.0.1"
+  }
+}
