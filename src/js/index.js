@@ -1,6 +1,9 @@
 window.addEventListener("DOMContentLoaded", () => {
   const btn = document.querySelector("button");
   btn.addEventListener("click", () => {
-    console.log(window.api);
+    if (window.api) {
+      const { sendToMessage } = window.api;
+      sendToMessage("TEST!");
+    }
   });
 });
